@@ -1,6 +1,6 @@
 var playlist = {'byumvuhore': 'umurage'}
 
-function opdatePlaylist (playlist, name, title){
+function updatePlaylist (playlist, name, title){
   
   return Object.assign({}, playlist, {name : title})
 }
