@@ -8,8 +8,5 @@ function updatePlaylist (playlist, artist, title){
 }
 
 function removeFromPlaylist(playlist, name){
-  return delete playlist.name
+  return delete playlist.Slowdive
 }
-
-t = updatePlaylist(playlist,'Phil Ochs',"Here's to the State of Mississippi" )
-console.log(t)
